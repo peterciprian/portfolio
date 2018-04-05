@@ -1,0 +1,200 @@
+/* kérdés, hogy hogyan lehet megoldani, hogy a háttérminta a sectionokban is háttérminta legyen?*/
+
+body {
+    background-color: aliceblue;
+    background-image: url("/assets/img/bckgrB.png");
+    background-repeat: repeat;
+    background-size: 600px;
+}
+
+section {
+    padding: 0 0 20px 0;
+}
+
+header {
+    background-color: #D7DFDD;
+    box-shadow: 10px 10px 20px #24292e94;
+}
+
+#about {
+    background-color: rgba(255, 246, 117, 0.5);
+}
+
+#csr {
+    background-color: rgba(151, 115, 233, 0.5);
+}
+
+#urban {
+    background-color: rgba(126, 170, 172, 0.5);
+}
+
+#software {
+    background-color: rgba(137, 185, 125, 0.5);
+}
+
+footer {
+    z-index: -1;
+    background-color: rgba(222, 253, 232, 0.5);
+    padding: 20pt;
+}
+
+#myBtn {
+    opacity: 0.5;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99
+}
+
+#carousel {
+    box-shadow: 10px 10px 20px #24292e94;
+}
+
+.icon {
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.icon>i {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+.fb {
+    background-color: rgba(66, 103, 178, 0.9);
+}
+
+.li {
+    background-color: rgba(0, 119, 181, 0.9);
+}
+
+.gh {
+    background-color: rgba(36, 41, 46, 0.9);
+}
+
+.gm {
+    background-color: rgba(206, 62, 46, 0.9);
+}
+
+.fb:hover {
+    background-color: #4267b2;
+}
+
+.li:hover {
+    background-color: #0077b5;
+}
+
+.gh:hover {
+    background-color: #24292e;
+}
+
+.gm:hover {
+    background-color: #ce3e2e;
+}
+
+a {
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+.social {
+    padding: 15px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card i {
+    color: #888;
+}
+
+.card i:hover {
+    color: #222;
+}
+
+.card {
+    box-shadow: 10px 10px 20px #24292e94;
+}
+
+.load {
+    position: relative;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 12px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 20px #24292e94;
+}
+
+.scale {
+    position: relative;
+    top: 1px;
+    width: 30%;
+    transition: width 1s;
+    height: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px #24292e94 inset;
+}
+
+.mi,
+.ac,
+.qg {
+    background-color: rgba(216, 0, 50, 0.8);
+}
+
+.cd,
+.ps,
+.gi {
+    background-color: rgba(105, 161, 151, 0.8);
+}
+
+.su {
+    background-color: rgba(120, 88, 111, 0.8);
+}
+
+.mi {
+    /*transition-timing-function: ease-in-out;*/
+    width: 98%;
+}
+
+.ac {
+    /*transition-timing-function: ease-in-out;*/
+    width: 80%;
+}
+
+.qg {
+    /* transition-timing-function: ease-in-out;*/
+    width: 55%;
+}
+
+.cd {
+    /*transition-timing-function: ease-in-out;*/
+    width: 90%;
+}
+
+.ps {
+    /* transition-timing-function: ease-in-out;*/
+    width: 72%;
+}
+
+.gi {
+    /*transition-timing-function: ease-in-out;*/
+    width: 66%;
+}
+
+.su {
+    /*transition-timing-function: ease-in-out;*/
+    width: 80%;
+}
