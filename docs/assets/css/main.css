@@ -2,9 +2,9 @@
 
 body {
     background-color: aliceblue;
-    background-image: url("/docs/assets/img/bckgrB.png");
+    background-image: url("https://peterciprian.github.io/portfolio/assets/img/bckgrw.png");
     background-repeat: repeat;
-    background-size: 600px;
+    background-size: 300px;
 }
 
 section {
