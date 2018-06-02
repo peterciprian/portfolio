@@ -52,6 +52,10 @@ footer {
     box-shadow: 10px 10px 20px #24292e94;
 }
 
+/*#social>.row>.col-3{
+    width: 40px;
+}*/
+
 .icon {
     position: relative;
     border-radius: 50%;
