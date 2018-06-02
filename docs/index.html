@@ -13,10 +13,10 @@
     <title>TITLE</title>
 </head>
 
-<body>
+<body id="body">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#home">
                 <img src="https://peterciprian.github.io/portfolio/assets/img/camel.png" alt="OPC" height="35">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
@@ -26,22 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
+                        <a class="nav-link" data-toggle="collapse" href="#home" role="button" aria-expanded="true" aria-controls="carousel">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About me</a>
+                        <a class="nav-link" data-toggle="collapse" href="#about" role="button" aria-expanded="false" aria-controls="about">About me</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#superPower">As software developer</a>
+                        <a class="nav-link" data-toggle="collapse" href="#software" role="button" aria-expanded="false" aria-controls="software">As software developer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#urban">As urban designer</a>
+                        <a class="nav-link"  data-toggle="collapse" href="#urban" role="button" aria-expanded="false" aria-controls="urban">As urban designer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#csr">Social actvity</a>
+                        <a class="nav-link"  data-toggle="collapse" href="#csr" role="button" aria-expanded="false" aria-controls="csr">Social actvity</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -50,7 +50,7 @@
             </div>
         </nav>
     </header>
-    <section>
+    <section id="home" class="collapse" data-parent="#body">
         <button onclick="topFunction()" id="myBtn" class="btn btn-light">
             <i class="fas fa-chevron-up"></i>
         </button>
@@ -95,7 +95,7 @@
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" class="collapse" data-parent="#body">
         <div class="container">
             <div class="row">
                 <div class="col-12">About me</div>
@@ -103,7 +103,7 @@
         </div>
     </section>
 
-    <section id="software">
+    <section id="software" class="collapse" data-parent="#body">
         <div class="container">
             <div class="row">
                 <div class="col-12">As software developer
@@ -213,7 +213,7 @@
         </div>
     </section>
 
-    <section id="urban">
+    <section id="urban" class="collapse" data-parent="#body">
         <div class="container">
             <div class="row">
                 <div class="col-12">As urban designer
@@ -357,7 +357,7 @@
         </div>
     </section>
 
-    <section id="csr">
+    <section id="csr" class="collapse" data-parent="#body">
         <div class="container">
             <div class="row">
                 <div class="col-12">Social actvity</div>

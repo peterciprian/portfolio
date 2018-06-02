@@ -1,10 +1,8 @@
-/* kérdés, hogy hogyan lehet megoldani, hogy a háttérminta a sectionokban is háttérminta legyen?*/
-
 body {
     background-color: aliceblue;
     background-image: url("https://peterciprian.github.io/portfolio/assets/img/bckgrw.png");
     background-repeat: repeat;
-    background-size: 300px;
+    background-size: 100%;
 }
 
 section {
@@ -16,6 +14,9 @@ header {
     box-shadow: 10px 10px 20px #24292e94;
 }
 
+#carousel {
+    height: 100%;
+}
 #about {
     background-color: rgba(255, 246, 117, 0.5);
 }
@@ -54,14 +55,14 @@ footer {
 .icon {
     position: relative;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .icon>i {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 20px;
+    left: 20px;
     transform: translate(-50%, -50%);
     color: whitesmoke;
 }
@@ -110,7 +111,7 @@ a:hover {
 }
 
 .social {
-    padding: 15px;
+    padding: 10px;
 }
 
 .card {
