@@ -1,8 +1,6 @@
 body {
-    background-color: aliceblue;
-    background-image: url("https://peterciprian.github.io/portfolio/assets/img/bckgrw.png");
-    background-repeat: repeat;
-    background-size: 300px;
+    background-image: url("../img/abstract-sunlight-texture-wave-flower-old-760419-pxhere.com.jpg");
+    background-size: 100%;
 }
 
 section {
@@ -11,8 +9,9 @@ section {
 }
 
 header {
-    background-color: #D7DFDD;
+    background-image:linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(0,0,0,0.5) 100%);
     box-shadow: 10px 10px 20px #24292e94;
+    border-bottom: 3px solid #222;
 }
 #home {
     padding: 0;
@@ -22,25 +21,32 @@ header {
     height: 100%;
 }
 #about {
-    background-color: #6D454C;
+    background-image: url("../img/sea-ocean-structure-board-sunlight-texture-931903-pxhere.com.jpg");
+    background-size: 100%;
 }
 
 #csr {
-    background-color: #FCFF6C;
+    background-image: url("../img/creative-abstract-structure-wood-grain-texture-1379305-pxhere.com.jpg");
+    background-size: 100%;
 }
 
 #urban {
-    background-color: #D89D6A;
+    background-image: url("../img/structure-texture-floor-cobblestone-wall-pattern-943111-pxhere.com.jpg");
+    background-size: 100%;
 }
 
 #software {
-    background-color: #96ADC8;
+    background-image: url("../img/rock-abstract-structure-texture-floor-wall-630620-pxhere.com.jpg");
+    background-size: 100%;
 }
 
 footer {
+    bottom: 0;
     z-index: -1;
-    background-color: rgb(222, 253, 232);
+    background-image: url("../img/wood-grain-texture-plank-floor-old-695366-pxhere.com.jpg");
+    background-size: auto;
     padding: 20pt;
+    border-top: 3px solid #222;
 }
 
 #myBtn {
