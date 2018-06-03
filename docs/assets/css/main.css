@@ -14,6 +14,9 @@ header {
     background-color: #D7DFDD;
     box-shadow: 10px 10px 20px #24292e94;
 }
+#home {
+    padding: 0;
+}
 
 #carousel {
     height: 100%;
