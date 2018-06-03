@@ -2,11 +2,12 @@ body {
     background-color: aliceblue;
     background-image: url("https://peterciprian.github.io/portfolio/assets/img/bckgrw.png");
     background-repeat: repeat;
-    background-size: 100%;
+    background-size: 300px;
 }
 
 section {
     padding: 0 0 20px 0;
+    bottom: 0;
 }
 
 header {
@@ -18,24 +19,24 @@ header {
     height: 100%;
 }
 #about {
-    background-color: rgba(255, 246, 117, 0.5);
+    background-color: rgb(255, 246, 117);
 }
 
 #csr {
-    background-color: rgba(151, 115, 233, 0.5);
+    background-color: rgb(151, 115, 233);
 }
 
 #urban {
-    background-color: rgba(126, 170, 172, 0.5);
+    background-color: rgb(126, 170, 172);
 }
 
 #software {
-    background-color: rgba(137, 185, 125, 0.5);
+    background-color: rgb(137, 185, 125);
 }
 
 footer {
     z-index: -1;
-    background-color: rgba(222, 253, 232, 0.5);
+    background-color: rgb(222, 253, 232);
     padding: 20pt;
 }
 
@@ -48,11 +49,11 @@ footer {
     z-index: 99
 }
 
-#carousel {
+/*#carousel {
     box-shadow: 10px 10px 20px #24292e94;
 }
 
-/*#social>.row>.col-3{
+#social>.row>.col-3{
     width: 40px;
 }*/
 
