@@ -19,19 +19,19 @@ header {
     height: 100%;
 }
 #about {
-    background-color: rgb(255, 246, 117);
+    background-color: #6D454C;
 }
 
 #csr {
-    background-color: rgb(151, 115, 233);
+    background-color: #FCFF6C;
 }
 
 #urban {
-    background-color: rgb(126, 170, 172);
+    background-color: #D89D6A;
 }
 
 #software {
-    background-color: rgb(137, 185, 125);
+    background-color: #96ADC8;
 }
 
 footer {
