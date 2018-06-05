@@ -1,6 +1,7 @@
 body {
-    background-image: url("../img/abstract-sunlight-texture-wave-flower-old-760419-pxhere.com.jpg");
+    background-image: url("../img/sea-ocean-structure-board-sunlight-texture-931903-pxhere.com.jpg");
     background-size: 100%;
+    height: 100%;
 }
 
 section {
@@ -14,29 +15,32 @@ header {
     border-bottom: 3px solid #222;
 }
 #home {
+    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(0,0,0,0.5) 100%);
+    background-size: 100%;
     padding: 0;
+    min-height: 100%;
 }
 
 #carousel {
     height: 100%;
 }
 #about {
-    background-image: url("../img/sea-ocean-structure-board-sunlight-texture-931903-pxhere.com.jpg");
+    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(255, 166, 48, 0.5) 100%);
     background-size: 100%;
 }
 
 #csr {
-    background-image: url("../img/creative-abstract-structure-wood-grain-texture-1379305-pxhere.com.jpg");
+    background-image: radial-gradient(rgba(255,255,255,0.3) 0%, rgba(97, 84, 120, 0.5) 100%);
     background-size: 100%;
 }
 
 #urban {
-    background-image: url("../img/structure-texture-floor-cobblestone-wall-pattern-943111-pxhere.com.jpg");
+    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(27, 153, 139, 0.5) 100%);
     background-size: 100%;
 }
 
 #software {
-    background-image: url("../img/rock-abstract-structure-texture-floor-wall-630620-pxhere.com.jpg");
+    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(186, 92, 18, 0.5) 100%);
     background-size: 100%;
 }
 
