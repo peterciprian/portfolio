@@ -77,12 +77,12 @@ header {
   /**/
 
 #csr {
-    background-image: radial-gradient(rgba(255,255,255,0.3) 0%, rgba(97, 84, 120, 0.5) 100%);
+    background-image: radial-gradient(rgba(255,255,255,0.3) 0%, rgba(134, 102, 153, 0.5) 100%);
     background-size: 100%;
 }
 
 #urban {
-    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(27, 153, 139, 0.5) 100%);
+    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(27, 153, 100, 0.5) 100%);
     background-size: 100%;
 }
 
