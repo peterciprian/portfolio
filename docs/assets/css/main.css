@@ -1,13 +1,20 @@
 body {
+    height: 100%;
+}
+
+.bg{
     background-image: url("../img/bg.jpg");
     background-size: 100%;
-    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 section {
     padding: 20px 0 20px 0;
     bottom: 0;
+    min-height: 484px;
 }
 
 header {
@@ -56,7 +63,10 @@ header {
     border-color:#222;
     border-width: 3px;
   }*/
-  
+  .tab-content{
+      padding-top: 20px;
+  }
+
   div>ul>li>a {
     color: #212529;
   }
