@@ -21,6 +21,9 @@ header {
     background-image:linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(0,0,0,0.5) 100%);
     box-shadow: 10px 10px 20px #24292e94;
     border-bottom: 3px solid #222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13pt;
+    font-weight: 800;
 }
 #home {
     background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(0,0,0,0.5) 100%);
@@ -63,6 +66,7 @@ header {
     border-color:#222;
     border-width: 3px;
   }*/
+
   .tab-content{
       padding-top: 20px;
   }
@@ -118,6 +122,11 @@ footer {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+}
+
+.ico{
+    padding: 0;
+    margin: 2px 5px;
 }
 
 .icon>i {
