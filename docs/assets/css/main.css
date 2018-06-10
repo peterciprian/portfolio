@@ -2,7 +2,7 @@ body {
     height: 100%;
 }
 
-.bg{
+.bg {
     background-image: url("../img/bg.jpg");
     background-size: 100%;
     background-position: center;
@@ -18,15 +18,16 @@ section {
 }
 
 header {
-    background-image:linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(0,0,0,0.5) 100%);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%);
     box-shadow: 10px 10px 20px #24292e94;
     border-bottom: 3px solid #222;
     font-family: 'Raleway', sans-serif;
     font-size: 13pt;
     font-weight: 800;
 }
+
 #home {
-    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(0,0,0,0.5) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%);
     background-size: 100%;
     padding: 0;
     min-height: 100%;
@@ -35,30 +36,52 @@ header {
 #carousel {
     height: 100%;
 }
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: 481px;
+}
+
+.carousel-item>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    color: #001011;
+}
+.carousel-caption>p, .carousel-caption>h5, .carousel-caption>i {
+    text-shadow: 2px 2px 50px white
+}
+
 #about {
-    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(255, 166, 48, 0.5) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 166, 48, 0.5) 100%);
     background-size: 100%;
 }
+
 /**/
+
 .profilePicture {
     border-radius: 15px;
     border-style: solid;
-    border-color:#222;
+    border-color: #222;
     border-width: 3px;
     margin-bottom: 20px;
-  }
-  
-  .nav-pills .nav-link.active,
-  .nav-pills .show>.nav-link {
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: #212529;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 15px;
     border-style: solid;
-    border-color:#222;
+    border-color: #222;
     border-width: 3px;
-  }
-  
-  /*li>a.nav-link:not(.collapsed) {
+}
+
+/*li>a.nav-link:not(.collapsed) {
     color: #212529;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 15px;
@@ -67,27 +90,28 @@ header {
     border-width: 3px;
   }*/
 
-  .tab-content{
-      padding-top: 20px;
-  }
+.tab-content {
+    padding-top: 20px;
+}
 
-  div>ul>li>a {
+div>ul>li>a {
     color: #212529;
-  }
-  /**/
+}
+
+/**/
 
 #csr {
-    background-image: radial-gradient(rgba(255,255,255,0.3) 0%, rgba(134, 102, 153, 0.5) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 0%, #86669980 100%);
     background-size: 100%;
 }
 
 #urban {
-    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(27, 153, 100, 0.5) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(27, 153, 100, 0.5) 100%);
     background-size: 100%;
 }
 
 #software {
-    background-image: radial-gradient(rgba(255,255,255,0.3) 0%,rgba(186, 92, 18, 0.5) 100%);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(186, 92, 18, 0.5) 100%);
     background-size: 100%;
 }
 
@@ -124,7 +148,7 @@ footer {
     height: 40px;
 }
 
-.ico{
+.ico {
     padding: 0;
     margin: 2px 5px;
 }
