@@ -253,51 +253,95 @@ a:hover {
 
 .mi,
 .ac,
-.qg {
+.qg,
+.ng,
+.rxjs {
     background-color: rgba(216, 0, 50, 0.8);
 }
 
 .cd,
 .ps,
-.gi {
+.gi,
+.js,
+.ts {
     background-color: rgba(105, 161, 151, 0.8);
 }
 
-.su {
+.su,
+.bs,
+.am {
     background-color: rgba(120, 88, 111, 0.8);
 }
 
+.html,
+.css {
+    background-color: rgba(71, 87, 160, 0.8);
+}
+
 .mi {
-    /*transition-timing-function: ease-in-out;*/
-    width: 98%;
+    width: 90%;
 }
 
 .ac {
-    /*transition-timing-function: ease-in-out;*/
     width: 80%;
 }
 
 .qg {
-    /* transition-timing-function: ease-in-out;*/
-    width: 55%;
+    width: 45%;
 }
 
 .cd {
-    /*transition-timing-function: ease-in-out;*/
-    width: 90%;
+    width: 70%;
 }
 
 .ps {
-    /* transition-timing-function: ease-in-out;*/
-    width: 72%;
+    width: 52%;
 }
 
 .gi {
-    /*transition-timing-function: ease-in-out;*/
-    width: 66%;
+    width: 46%;
 }
 
 .su {
-    /*transition-timing-function: ease-in-out;*/
+    width: 70%;
+}
+
+.ejs {
+    width: 40%;
+}
+
+.njs {
+    width: 40%;
+}
+
+.rxjs {
+    width: 50%;
+}
+
+.am {
+    width: 70%;
+}
+
+.bs {
+    width: 70%;
+}
+
+.ng {
     width: 80%;
+}
+
+.ts {
+    width: 77%;
+}
+
+.js {
+    width: 70%;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 70%;
 }
