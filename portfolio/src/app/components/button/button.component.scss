@@ -9,15 +9,18 @@ button.linkButton {
   border-radius: 4px;
   width: 200px;
   height: 60px;
+  box-shadow: 0 2px #999;
 }
 
 button.linkButton:active {
   outline: none;
   border: 1px solid;
+  box-shadow: 0 0px #666;
+  transform: translateY(2px);
 }
 
 button.linkButton:hover {
-  color: $color-white;
+  color: $color-yellow;
   background-color: $color-purple;
-  border-color: $color-purple
+  border-color: $color-purple;
 }
