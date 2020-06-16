@@ -1,0 +1,14 @@
+@import 'src/assets/styles/main.scss';
+
+.home {
+  color: $color-purple;
+  height: calc(100vh - #{$header-height} - #{$footer-height});
+}
+
+h1 {
+  margin: 40px auto;
+}
+
+h3 {
+  margin: 40px auto 60px;
+}

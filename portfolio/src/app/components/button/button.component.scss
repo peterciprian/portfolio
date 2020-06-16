@@ -1,0 +1,23 @@
+@import 'src/assets/styles/main.scss';
+
+button.linkButton {
+  color: $color-purple;
+  background-color: $color-white;
+  border-color: $color-purple;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 4px;
+  width: 200px;
+  height: 60px;
+}
+
+button.linkButton:active {
+  outline: none;
+  border: 1px solid;
+}
+
+button.linkButton:hover {
+  color: $color-white;
+  background-color: $color-purple;
+  border-color: $color-purple
+}

@@ -1,0 +1,36 @@
+@import './color.scss';
+@import './text.scss';
+
+$header-height: 40px;
+$footer-height: 50px;
+
+body {
+  height: 100%;
+}
+
+header {
+  height: $header-height;
+  box-shadow: 10px 10px 20px #24292e94;
+  border-bottom: 3px solid #222;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13pt;
+  font-weight: 800;
+}
+
+footer {
+  height: $footer-height;
+  bottom: 0;
+  z-index: -1;
+  background-size: auto;
+  padding: 20pt;
+  border-top: 3px solid #222;
+}
+
+#myBtn {
+  opacity: 0.5;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99
+}
