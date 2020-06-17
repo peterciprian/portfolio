@@ -2,7 +2,7 @@
 
 .home {
   color: $color-purple;
-  height: calc(100vh - #{$header-height} - #{$footer-height});
+  min-height: calc(100vh - #{$header-height} - #{$footer-height});
 }
 
 .subtitle {

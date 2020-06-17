@@ -1,0 +1,7 @@
+@import 'src/assets/styles/main.scss';
+
+.projects {
+  color: $color-purple;
+  min-height: calc(100vh - #{$header-height} - #{$footer-height});
+  padding: 20px;
+}

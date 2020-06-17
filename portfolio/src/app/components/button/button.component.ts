@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, HostListener } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -14,6 +14,10 @@ export class ButtonComponent {
   constructor(private router: Router) { }
 
   navigate() {
-    this.router.navigate([this.link]);
+    if (this.link.startsWith('/')) {
+      this.router.navigate([this.link]);
+    } else {
+      window.open(this.link, '_blank');
+    }
   }
 }
