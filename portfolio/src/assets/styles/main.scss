@@ -6,11 +6,12 @@ $footer-height: 50px;
 
 body {
   height: 100%;
+  background-color: $color-gray
 }
 
 header {
   height: $header-height;
-  box-shadow: 0px 0px 8px #24292e94;
+  box-shadow: 0px 0px 8px $color-purple;
   // border-bottom: 1px solid #222;
   font-size: 13pt;
   font-weight: 800;
@@ -18,7 +19,7 @@ header {
 
 footer {
   height: $footer-height;
-  box-shadow: 0px 0px 8px #24292e94;
+  box-shadow: 0px 0px 8px $color-purple;
   bottom: 0;
   z-index: -1;
   // border-top: 1px solid #222;

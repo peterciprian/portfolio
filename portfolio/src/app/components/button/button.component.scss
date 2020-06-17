@@ -2,20 +2,20 @@
 
 button.linkButton {
   color: $color-purple;
-  background-color: $color-white;
+  background-color: $color-gray;
   border-color: $color-purple;
   border: 1px solid;
   padding: 4px;
   border-radius: 4px;
   width: 200px;
   height: 60px;
-  box-shadow: 0 2px #999;
+  box-shadow: 0 2px $color-yellow;
 }
 
 button.linkButton:active {
   outline: none;
   border: 1px solid;
-  box-shadow: 0 0px #666;
+  box-shadow: 0 0px $color-yellow;
   transform: translateY(2px);
 }
 

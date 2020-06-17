@@ -1,0 +1,16 @@
+@import 'src/assets/styles/main.scss';
+
+.box {
+  background-color: $color-gray;
+  box-shadow: 1px 1px 5px $color-green;
+  padding: 8px 12px;
+  border-radius: 8px;
+  align-items: center;
+  min-height: 32px;
+  height: 1px;
+  width: auto;
+}
+
+.box:hover {
+  opacity: .8;
+}

@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { ButtonComponent } from '../components/button/button.component';
 import { CardComponent } from '../components/card/card.component';
 import { SocialIconComponent } from '../components/social-icon/social-icon.component';
+import { FrameComponent } from '../components/frame/frame.component';
+import { BoxComponent } from '../components/box/box.component';
 
 /**
  * Components
@@ -10,7 +12,9 @@ import { SocialIconComponent } from '../components/social-icon/social-icon.compo
 const sharedComponents: any[] = [
   ButtonComponent,
   CardComponent,
-  SocialIconComponent
+  SocialIconComponent,
+  FrameComponent,
+  BoxComponent
 ];
 
 /**
