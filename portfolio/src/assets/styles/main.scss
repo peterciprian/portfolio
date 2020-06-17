@@ -10,20 +10,18 @@ body {
 
 header {
   height: $header-height;
-  box-shadow: 10px 10px 20px #24292e94;
-  border-bottom: 3px solid #222;
-  font-family: 'Raleway', sans-serif;
+  box-shadow: 0px 0px 8px #24292e94;
+  // border-bottom: 1px solid #222;
   font-size: 13pt;
   font-weight: 800;
 }
 
 footer {
   height: $footer-height;
+  box-shadow: 0px 0px 8px #24292e94;
   bottom: 0;
   z-index: -1;
-  background-size: auto;
-  padding: 20pt;
-  border-top: 3px solid #222;
+  // border-top: 1px solid #222;
 }
 
 #myBtn {
