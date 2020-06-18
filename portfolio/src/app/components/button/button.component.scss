@@ -2,7 +2,7 @@
 
 button.linkButton {
   color: $color-purple;
-  background-color: $color-gray;
+  background-color: $color-light;
   border-color: $color-purple;
   border: 1px solid;
   padding: 4px;
@@ -23,4 +23,5 @@ button.linkButton:hover {
   color: $color-yellow;
   background-color: $color-purple;
   border-color: $color-purple;
+  opacity: .75;
 }

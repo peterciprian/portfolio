@@ -1,16 +1,20 @@
 @import 'src/assets/styles/main.scss';
 
 .box {
+  cursor: default;
   background-color: $color-gray;
-  box-shadow: 1px 1px 5px $color-green;
+  box-shadow: 1px 1px 5px $color-purple;
+  font-weight: 800;
   padding: 8px 12px;
   border-radius: 8px;
   align-items: center;
   min-height: 32px;
-  height: 1px;
+  height: auto;
   width: auto;
+  opacity: .8;
+  margin: 4px
 }
 
 .box:hover {
-  opacity: .8;
+  color: $color-yellow;
 }

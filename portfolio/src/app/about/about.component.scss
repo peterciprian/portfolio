@@ -3,5 +3,49 @@
 .about {
   color: $color-purple;
   min-height: calc(100vh - #{$header-height} - #{$footer-height});
-  padding: 20px;
+  display: flex;
+  flex-direction: row;
+
+  .personal {
+    width: 35vw;
+    height: 100%;
+    margin: 0, 10px;
+
+    .stack-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  .experience {
+    width: 65vw;
+    height: 100%;
+    margin: 0, 10px;
+
+    .tech-stack {
+      margin: 12px 0;
+    }
+
+    .tech-stack-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-left: 16px;
+  }
+
+  li:before {
+    content: "-";
+    padding-right: 8px;
+  }
 }

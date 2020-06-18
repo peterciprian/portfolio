@@ -1,7 +1,13 @@
 @import 'src/assets/styles/main.scss';
 
 .frame {
-  background-color: $color-gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: $color-light;
   box-shadow: 3px 3px 8px $color-purple;
-  border-radius: 5px;width: auto;
+  border-radius: 5px;
+  width: auto;
+  padding: 20px;
+  margin: 20px;
 }
