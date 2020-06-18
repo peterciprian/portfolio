@@ -1,0 +1,66 @@
+.icon {
+  position: relative;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.ico {
+  padding: 0;
+  margin: 2px 5px;
+}
+
+.icon>i {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+
+.fb {
+  background-color: rgba(66, 103, 178, 0.9);
+}
+
+.li {
+  background-color: rgba(0, 119, 181, 0.9);
+}
+
+.gh {
+  background-color: rgba(36, 41, 46, 0.9);
+}
+
+.gm {
+  background-color: rgba(206, 62, 46, 0.9);
+}
+
+.fb:hover {
+  background-color: #4267b2;
+}
+
+.li:hover {
+  background-color: #0077b5;
+}
+
+.gh:hover {
+  background-color: #24292e;
+}
+
+.gm:hover {
+  background-color: #ce3e2e;
+}
+
+a {
+  color: rgb(12, 12, 12);
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  cursor: pointer;
+}
+
+.social {
+  padding: 10px;
+}
