@@ -1,0 +1,32 @@
+@import 'src/assets/styles/main.scss';
+
+.nav-container {
+  height: $header-height;
+  color: $color-purple !important;
+  background-color: $color-light;
+  box-shadow: 0 2px $color-yellow;
+
+  .nav-drop {
+    margin: 12px;
+
+    img {
+      max-height: 40px;
+    }
+
+    & a {
+      text-decoration: none;
+      color: #2f1b25;
+    }
+
+    &:active a,
+    & a.active {
+      color: $color-yellow !important;
+      outline: none;
+    }
+
+    &:hover a {
+      color: $color-gray !important;
+    }
+  }
+
+}
