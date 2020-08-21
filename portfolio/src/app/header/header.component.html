@@ -11,5 +11,11 @@
     <div class="nav-drop">
       <a routerLinkActive="active" routerLink="/projects">Projects</a>
     </div>
+    <div class="socials d-none d-sm-flex flex-row align-items-center justify-content-center ml-auto mr-3">
+      <app-social-icon class="mx-2" [icon]="faLinkedin" [bgColor]="colorLinkedin" [link]="'https://www.linkedin.com/in/olahpeterciprian/'"></app-social-icon>
+      <app-social-icon class="mx-2" [icon]="faGithub" [bgColor]="colorGithub" [link]="'https://github.com/peterciprian'"></app-social-icon>
+      <app-social-icon class="mx-2" [icon]="faEmail" [bgColor]="colorEmail" [link]="'mailto:peterciprian@gmail.com'"></app-social-icon>
+      <app-social-icon class="mx-2" [icon]="faFacebook" [bgColor]="colorFacebook" [link]="'https://www.facebook.com/peterciprian'"></app-social-icon>
+    </div>
   </div>
 </header>

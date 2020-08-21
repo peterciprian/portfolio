@@ -1,36 +1,8 @@
-<footer>
-  <div class="row">
-      <div id="social" class="col-8 offset-2">
-          <div class="row justify-content-center">
-              <div class="ico">
-                  <a href="mailto:peterciprian@gmail.com" target="_top">
-                      <div class="icon gm">
-                          <i class="fas fa-at email fa-lg"></i>
-                      </div>
-                  </a>
-              </div>
-              <div class="ico">
-                  <a href="http://www.facebook.com/peterciprian" target="_blank">
-                      <div class="icon fb">
-                          <i class="fab fa-facebook-f fa-lg"></i>
-                      </div>
-                  </a>
-              </div>
-              <div class="ico">
-                  <a href="http://github.com/peterciprian" target="_blank">
-                      <div class="icon gh">
-                          <i class="fab fa-github fa-lg"></i>
-                      </div>
-                  </a>
-              </div>
-              <div class="ico">
-                  <a href="https://www.linkedin.com/in/olahpeterciprian/" target="_blank">
-                      <div class="icon li">
-                          <i class="fab fa-linkedin-in fa-lg"></i>
-                      </div>
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
+<footer class="nav-container d-flex flex-row align-items-center">
+    <div class="socials d-flex flex-row align-items-center justify-content-center mx-auto">
+      <app-social-icon class="mx-2" [icon]="faLinkedin" [bgColor]="colorLinkedin" [link]="'https://www.linkedin.com/in/olahpeterciprian/'"></app-social-icon>
+      <app-social-icon class="mx-2" [icon]="faGithub" [bgColor]="colorGithub" [link]="'https://github.com/peterciprian'"></app-social-icon>
+      <app-social-icon class="mx-2" [icon]="faEmail" [bgColor]="colorEmail" [link]="'mailto:peterciprian@gmail.com'"></app-social-icon>
+      <app-social-icon class="mx-2" [icon]="faFacebook" [bgColor]="colorFacebook" [link]="'https://www.facebook.com/peterciprian'"></app-social-icon>
+    </div>
 </footer>
