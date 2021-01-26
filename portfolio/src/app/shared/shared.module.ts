@@ -5,6 +5,7 @@ import { CardComponent } from '../components/card/card.component';
 import { SocialIconComponent } from '../components/social-icon/social-icon.component';
 import { FrameComponent } from '../components/frame/frame.component';
 import { BoxComponent } from '../components/box/box.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 /**
  * Components
@@ -33,6 +34,7 @@ const sharedDirectives: any[] = [
  * Modules
  */
 const sharedModules: any[] = [
+  FontAwesomeModule
 ];
 
 
