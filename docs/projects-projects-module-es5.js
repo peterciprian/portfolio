@@ -118,14 +118,18 @@
       "./src/app/components/card/card.component.ts");
 
       var _c0 = function _c0() {
-        return ["Angular 8", "Firebase"];
+        return ["React", "JavaScript", "OpenLayers", "Next.js", "AWS"];
       };
 
       var _c1 = function _c1() {
-        return ["Angular 8", "OpenLayers", "Spring Boot", "PostgreSQL"];
+        return ["Angular 8", "Firebase"];
       };
 
       var _c2 = function _c2() {
+        return ["Angular 8", "OpenLayers", "Spring Boot", "PostgreSQL"];
+      };
+
+      var _c3 = function _c3() {
         return ["Angular 8", "JSONPlaceholder API"];
       };
 
@@ -149,8 +153,8 @@
       ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: ProjectsComponent,
         selectors: [["app-projects"]],
-        decls: 8,
-        vars: 28,
+        decls: 9,
+        vars: 35,
         consts: [[1, "projects", "d-flex", "flex-column", "justify-content-center", "align-self-center", "align-items-center"], [1, "mx-auto", "my-5"], [1, "d-flex", "flex-row", "flex-wrap", "justify-content-around"], [1, "m-4", 3, "imageSrc", "title", "text", "list", "buttonText", "link"]],
         template: function ProjectsComponent_Template(rf, ctx) {
           if (rf & 1) {
@@ -172,6 +176,8 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "app-card", 3);
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "app-card", 3);
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -180,19 +186,23 @@
           if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("imageSrc", "assets/img/immobees.png")("title", "Immobees")("text", "Flatmate search app")("list", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](24, _c0))("buttonText", "Try it!")("link", "https://immobees-98dcd.web.app/");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("imageSrc", "assets/img/tdg.jpg")("title", "Transcend Design Generator")("text", "Edison Awarded Design generator platform")("list", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](30, _c0))("buttonText", "Try it!")("link", "https://try.transcendh2o.com/");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("imageSrc", "assets/img/monor.png")("title", "Smart city platform")("text", "Smart city platform for Monor")("list", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](25, _c1))("buttonText", "Try it!")("link", "https://ttp.okosvaros.lechnerkozpont.hu/");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("imageSrc", "assets/img/immobees.png")("title", "Immobees")("text", "Flatmate search app")("list", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](31, _c1))("buttonText", "Try it!")("link", "https://immobees-98dcd.web.app/");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("imageSrc", "assets/img/vegetables.jpg")("title", "MyRecipes")("text", "Serach for recipes from seasonal goods")("list", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](26, _c0))("buttonText", "Wanna see the codes?")("link", "https://github.com/peterciprian/MyRecipes/tree/master/src");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("imageSrc", "assets/img/monor.png")("title", "Smart city platform")("text", "Smart city platform for Monor")("list", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](32, _c2))("buttonText", "Try it!")("link", "https://ttp.okosvaros.lechnerkozpont.hu/");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("imageSrc", "assets/img/codes.jpg")("title", "Sample app")("text", "It's a sample app that you can inspect to see, what code am I able to produce in ~6 hours")("list", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](27, _c2))("buttonText", "Wanna see the codes?")("link", "https://github.com/peterciprian/CodeSample---PostApp/blob/master/src");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("imageSrc", "assets/img/vegetables.jpg")("title", "MyRecipes")("text", "Serach for recipes from seasonal goods")("list", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](33, _c1))("buttonText", "Wanna see the codes?")("link", "https://github.com/peterciprian/MyRecipes/tree/master/src");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("imageSrc", "assets/img/codes.jpg")("title", "Sample app")("text", "It's a sample app that you can inspect to see, what code am I able to produce in ~6 hours")("list", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](34, _c3))("buttonText", "Wanna see the codes?")("link", "https://github.com/peterciprian/CodeSample---PostApp/blob/master/src");
           }
         },
         directives: [_components_card_card_component__WEBPACK_IMPORTED_MODULE_1__["CardComponent"]],
