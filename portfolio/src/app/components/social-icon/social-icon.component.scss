@@ -1,12 +1,13 @@
 @import 'src/assets/styles/main.scss';
 
 .circle {
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    color: $color-white;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: $color-white;
+  padding-top: 3px;
 }
