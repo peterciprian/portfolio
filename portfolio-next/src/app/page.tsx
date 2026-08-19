@@ -9,6 +9,7 @@ import { experience } from "@/content/experience";
 import { profile } from "@/content/profile";
 import { projects } from "@/content/projects";
 import { skillGroups } from "@/content/skills";
+import { assetPath } from "@/lib/assetPath";
 
 export default function Home() {
   const featuredProjects = projects.filter((project) => project.featured);
@@ -31,7 +32,7 @@ export default function Home() {
           <SocialLinks links={profile.socials} />
         </div>
         <div className="portrait-panel" aria-label={`${profile.name} portrait`}>
-          <Image src="/img/profile.jpg" alt={`${profile.name} portrait`} width={520} height={680} priority />
+          <Image src={assetPath("/img/profile.jpg")} alt={`${profile.name} portrait`} width={520} height={680} priority />
         </div>
       </section>
 
