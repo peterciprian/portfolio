@@ -101,13 +101,7 @@ main {
 .brand-mark {
   width: 40px;
   height: 40px;
-  background-image: url("/img/camel-shape.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: grid;
-  place-items: center;
-  font-family: "Fraunces", Georgia, serif;
+  object-fit: contain;
 }
 
 .nav-links,
@@ -148,6 +142,39 @@ main {
   font-weight: 700;
   letter-spacing: 0;
   text-transform: uppercase;
+}
+
+.eyebrow-button {
+  width: fit-content;
+  border: 0;
+  padding: 0;
+  color: var(--warm);
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  transition: color 160ms ease;
+}
+
+.copy-icon {
+  width: 15px;
+  height: 15px;
+  color: var(--warm);
+  opacity: 0;
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.eyebrow-button:hover .copy-icon,
+.eyebrow-button:focus-visible .copy-icon {
+  color: var(--accent);
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.eyebrow-button:focus-visible {
+  outline: 3px solid rgba(0, 109, 119, 0.24);
+  outline-offset: 4px;
 }
 
 h1,

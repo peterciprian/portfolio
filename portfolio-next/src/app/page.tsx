@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero shell">
+      <section className="hero shell" id="me">
         <div className="hero-copy">
           <p className="eyebrow">Portfolio</p>
           <h1>{profile.name}</h1>
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Section eyebrow="Selected work" title="Projects with product, map, and data-heavy interfaces">
+      <Section eyebrow="Selected work" title="Projects with product, map, and data-heavy interfaces" id="projects">
         <div className="project-grid">
           {featuredProjects.map((project) => (
             <ProjectCard key={project.title} project={project} />
@@ -44,11 +44,11 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section eyebrow="Experience" title="Recent roles">
+      <Section eyebrow="Experience" title="Recent roles" id="experience">
         <ExperienceTimeline items={experience.slice(0, 2)} />
       </Section>
 
-      <Section eyebrow="Toolkit" title="Current strengths">
+      <Section eyebrow="Toolkit" title="Current strengths" id="toolkit">
         <SkillTags groups={skillGroups} />
       </Section>
     </>

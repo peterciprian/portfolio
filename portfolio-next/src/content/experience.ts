@@ -110,4 +110,13 @@ export const experience: ExperienceItem[] = [
       "PostgreSQL",
     ],
   },
+  {
+    company: "Völgyzugoly Műhely Kft.",
+    product: "Urban development plans",
+    role: "Project Assistant",
+    period: "2016.01 - 2018.01",
+    summary:
+      "Produced technical drawings and analytical sections for urban development plans using GIS and CAD software, collaborating with external experts and public authorities",
+    stack: ["QGIS", "AutoCAD", "MapInfo", "Ms Office"],
+  }
 ];

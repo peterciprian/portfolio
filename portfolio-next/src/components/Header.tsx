@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assetPath";
 
 const navItems = [
   { href: "/", label: "Home" },
@@ -11,7 +13,13 @@ export function Header() {
     <header className="site-header">
       <nav className="nav shell" aria-label="Main navigation">
         <Link className="brand" href="/">
-          <span className="brand-mark"></span>
+          <Image
+            className="brand-mark"
+            src={assetPath("/img/camel-shape.svg")}
+            alt=""
+            width={40}
+            height={40}
+          />
           <span>Oláh Péter Ciprián</span>
         </Link>
         <div className="nav-links">
