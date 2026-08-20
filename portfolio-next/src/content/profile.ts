@@ -6,8 +6,11 @@ export type SocialLink = {
 export const profile = {
   name: "Péter Ciprián Oláh",
   role: "Web Application Engineer - Frontend focused",
-  location: "Budapest, Hungary",
+  location: "Budapest, Hungary · Hybrid | Remote",
   email: "peterciprian@gmail.com",
+  phone: "+36 20 2412931",
+  github: "https://github.com/peterciprian",
+  linkedin: "https://www.linkedin.com/in/olahpeterciprian/",
   summary:
     "Senior Web Application Engineer with 8 years of experience with a strong background in frontend technologies and architecture",
   longBio:

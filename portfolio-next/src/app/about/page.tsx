@@ -13,6 +13,9 @@ export default function AboutPage() {
           <ul className="profile-list">
             <li>{profile.location}</li>
             <li>{profile.email}</li>
+            <li>{profile.phone}</li>
+            <li>{profile.github}</li>
+            <li>{profile.linkedin}</li>
             <hr />
             <li>{profile.longBio}</li>
           </ul>
