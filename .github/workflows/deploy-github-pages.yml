@@ -4,23 +4,25 @@ on:
   push:
     branches:
       - master
-    paths-ignore:
-      - "docs/**"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build-and-commit-docs:
+  build:
     name: Build static portfolio
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -39,18 +41,25 @@ jobs:
 
       - name: Build GitHub Pages export
         working-directory: portfolio-next
-        run: npm run build:github
+        env:
+          GITHUB_PAGES: "true"
+          NEXT_PUBLIC_BASE_PATH: /portfolio
+        run: npm run build
 
-      - name: Commit generated docs
-        shell: pwsh
-        run: |
-          if (-not (git status --porcelain docs)) {
-            Write-Host "No docs changes to commit."
-            exit 0
-          }
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: portfolio-next/out
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs
-          git commit -m "Build GitHub Pages site"
-          git push
+  deploy:
+    name: Deploy GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
