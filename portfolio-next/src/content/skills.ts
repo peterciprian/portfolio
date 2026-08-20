@@ -4,32 +4,32 @@ export type SkillGroup = {
 };
 
 export const skillGroups: SkillGroup[] = [
+  {
+    title: "ARCHITECTURE & ENGINEERING",
+    items: ["End-to-end feature development", "API-driven architecture", "Component libraries & Design systems", "Performance optimization", "State management", "Large-scale refactoring", "Modular design", "Scalable UI systems", "SSR/SSG/CSR"],
+  },
+  {
+    title: "AI-ASSISTED DEVELOPMENT",
+    items: ["GitHub Copilot", "ChatGPT", "AI-assisted development", "Agentic development workflows", "AI-generated code review and architecture planning"],
+  },
     {
-    title: "FRONTEND & FRAMEWORKS",
+    title: "FRONTEND",
     items: ["React", "Angular", "Next.js", "TypeScript", "JavaScript (ES6+)", "React Native"],
     },
   {
-    title: "STATE & API",
-    items: ["TanStack Query (React Query)", "RxJS", "REST APIs", "Axios", "Context API", "Redux toolkit"],
-  },
-  {
-    title: "ARCHITECTURE",
-    items: ["API-driven development", "Modular design", "Scalable UI systems", "SSR/SSG/CSR"],
-  },
-  {
-    title: "DESIGN SYSTEM",
-    items: ["Material UI", "Figma", "Styled Components", "CSS modules", "Bootstrap", "Tailwind", "SCSS"],
+    title: "BACKEND & DATABASE",
+    items: ["Node.js", "Nest.js", "Express.js", "C#", ".NET", "Java EE & Spring Boot", "MongoDB", "PostgreSQL", "Oracle DB", "Flyway", "Maven"],
   },
   {
     title: "DATA VISUALIZATION",
     items: ["Google Maps API", "OpenLayers", "Leaflet", "React-Flow", "Chart.js"],
   },
   {
-    title: "BACKEND & DATABASE",
-    items: ["Node.js", "Nest.js", "C#", ".NET Core", "Java EE & Spring Boot", "MongoDB", "PostgreSQL", "Oracle DB", "Flyway", "Maven"],
+    title: "STATE & API",
+    items: ["TanStack Query (React Query)", "RxJS", "NgRx", "REST APIs", "Axios", "Context API", "Redux toolkit"],
   },
   {
     title: "TOOLS & INFRASTRUCTURE",
-    items: ["Jest", "Storybook", "Node.js", "MongoDB", "PostgreSQL", "Git", "Webpack", "Vite", "npm", "Azure DevOps", "nginx", "GitHub Actions", "GitHub Pages", "GitHub Copilot"],
+    items: ["Jest", "Storybook", "Figma", "Material UI", "npm", "Webpack", "Vite", "Docker", "Azure DevOps", "GitHub Actions", "GitHub Pages", "nginx", "Git"],
   },
 ];

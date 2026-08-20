@@ -9,11 +9,14 @@ export const profile = {
   location: "Budapest, Hungary",
   email: "peterciprian@gmail.com",
   summary:
-    "Web Application Engineer focused on TypeScript, React, Next.js, Angular, Node.js, maps, and complex product interfaces for infrastructure and data-heavy workflows.",
+    "Senior Web Application Engineer with 8 years of experience with a strong background in frontend technologies and architecture",
   longBio:
-    "Product-oriented Frontend focused Web Application Engineer with 8 years of professional experience specializing in high-performance UI architecture using React, Angular, and Next.js, backed by hands-on experience in Node.js (NestJS/Express), .NET, and Java EE server-side ecosystems. Expert in bridging the gap between end-to-end business requirements and engineering execution. Proven track record of delivering end-to-end features, optimizing complex data rendering, and building type-safe API architectures. Available for B2B contracting (EV) or permanent roles.",
+    "Senior Web Application Engineer with 8 years of experience with a strong background in frontend technologies and architecture. I take full ownership of features across the entire development lifecycle, working closely with backend engineers and product stakeholders to turn user needs into technical specifications, architectural designs, and production-ready implementations. I focus on writing sustainable, readable code and maintaining quality through peer reviews. In my daily work, I use agentic AI workflows to write code faster and speed up development iterations. Available for B2B contracting (EV) or permanent roles.",
   socials: [
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/olahpeterciprian/" },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/olahpeterciprian/",
+    },
     { label: "GitHub", href: "https://github.com/peterciprian" },
     { label: "Email", href: "mailto:peterciprian@gmail.com" },
   ],

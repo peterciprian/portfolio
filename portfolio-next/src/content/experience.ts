@@ -12,7 +12,7 @@ export const experience: ExperienceItem[] = [
   {
     company: "Transcend Water Ltd.",
     product: "Transcend Design Generator",
-    role: "Senior Frontend developer (Full-Stack responsibility)",
+    role: "Senior Frontend developer",
     period: "2025.05 - 2026.07",
     summary:
       "Owned frontend architecture and led complex development initiatives, including rebuilding the internal admin module, re-architecting the geospatial module, and building a reusable component library and standardized data-handling solutions",
@@ -37,7 +37,7 @@ export const experience: ExperienceItem[] = [
   {
     company: "Transcend Water Ltd.",
     product: "Transcend Design Generator",
-    role: "Frontend developer (Full-Stack responsibility)",
+    role: "Frontend developer",
     period: "2021.04 - 2025.05",
     summary:
       "Developed complex, data-driven web applications with React and TypeScript, contributing to geospatial and dynamic form modules as well as reusable UI components and frontend solutions",
