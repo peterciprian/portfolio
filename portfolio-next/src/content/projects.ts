@@ -22,9 +22,9 @@ export const projects: Project[] = [
     title: "StrollBar",
     summary: "Social walking app for discovering local treasures and historical landmarks. (Work in progress)",
     image: "/img/strollBar.jpg",
-    href: "https://peterciprian.github.io/StrollBar",
+    href: "https://strollbar.app",
     cta: "Visit project",
-    stack: ["Angular", "Node.js", "NestJS", "RxJS", "NgRX", "TypeScript", "MongoDB", "PostgreSQL", "Github Copilot"],
+    stack: ["Angular", "Node.js", "NestJS", "RxJS", "NgRX", "TypeScript", "MongoDB", "PostgreSQL", "Github Copilot", "S3", "playwright", "Jest", ],
     featured: true,
   },
   {
